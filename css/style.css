@@ -1,0 +1,305 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.headerset{
+    position: fixed;
+    overflow:hidden;
+    z-index: 1;
+    background: #333;
+    border-bottom: 1px solid #444;
+    max-height: 60px;
+}
+
+.logo{
+    border-right: 1px solid #444;
+}
+
+.logoimg{
+    width: 150px;
+}
+
+.icon{
+    border-left: 1px solid #444;
+    padding: 12px 18px;
+}
+
+.choiceicons{
+    font-size: x-large;
+    color: #9B9B9B;
+}
+
+.cart{
+    background-color: #7AC64D;
+    color: #ffffff;
+    border-left: 1px solid #444;
+    padding: 12px 16px;
+}
+
+.nitro{
+    color: #9B9B9B;
+    font-size: 17px;
+    line-height: 50px;
+    background: #222;
+    padding: 5px 45px 5px 20px;
+}
+
+.nitro:hover{
+    color: #9B9B9B;
+}
+
+.backgroundimg{
+    padding-top: 60px;
+    height: 657px;
+    object-fit: cover;
+}
+
+.backgroundimg2{
+    height: 707px;
+    object-fit: cover;
+}
+
+.marcologo{
+    top: 70px;
+}
+
+.ulnavbar{
+    text-align: center;
+    width: 100%;
+}
+
+.marcoabsolute{
+    border-top: 1px solid #9B9B9B;
+}
+
+.macrotext{
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}
+
+.macroh1{
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.macrop{
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 460px;
+    color: #ffffff;
+    line-height: 1.625em;
+    margin-bottom: 30px;
+}
+
+.check{
+    background: #f42f2c;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menucheck:hover{
+    background: #222;
+    color: #fff;
+}
+
+.abouth2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #222;
+}
+
+.aboutp{
+    margin: 20px 0;
+    max-width: 473px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    line-height: 1.625em;
+    color: #777;
+}
+
+.ques{
+    font-weight: 700;
+    font-size: 38px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+::selection {
+    background-color: #f42f2c;
+    color: #fff;
+}
+
+.quespara{
+    font-size: 16px;
+    font-weight: 300;
+    color: #777;
+    line-height: 1.625em;
+}
+
+.setone{
+    background: #f9f9ff;
+}
+
+.all{
+    padding: 40px 0px;
+    color: #222;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.setlist{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px 0px rgb(153 153 153 / 20%);
+    margin-bottom: 40px;
+}
+
+.menu{
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #f42f2c;
+    border-right: 1px solid #edf6ff;
+    width: 195px;
+}
+
+.breakfast{
+    width: 216px;
+    border-right: 1px solid #edf6ff;
+}
+
+.lunch{
+    width: 137px;
+    border-right: 1px solid #edf6ff;
+}
+
+.dinner{
+    width: 149px;
+    border-right: 1px solid #edf6ff;
+}
+
+.meal{
+    width: 285px;
+    border-right: 1px solid #edf6ff;
+}
+
+.buffet{
+    width: 130px;
+    width: 130px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.pricedtls{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 15px 0px 0px;
+}
+
+.priceh3{
+    font-size: 19px;
+    color: #222;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.pricered{
+    color: #f42f2c;
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.pricepara{
+    color: #777;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+    width: 400px;
+    line-height: 1.625em; 
+}
+
+.bgimg {
+    background: rgba(17,22,24,0.75);
+    top: 0px;
+    height: 707px;
+}
+
+.make{
+    margin: 30px 0px 0px 90px;
+}
+
+.view:hover{
+    box-shadow: 0px 15px 15px 0px rgb(245 63 81 / 20%);
+}
+
+.setthree{
+    font-size: 40px;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: white;
+    width: 540px;
+}
+
+.setthreepara{
+    padding-top: 20px;
+    font-size: 15px;
+    width: 503px;
+    font-weight: 300;
+    line-height: 1.625em;
+    color: white;
+}
+
+.partone{
+    padding: 90px 0px;
+}
+
+.formset{
+    width: 445px;
+}
+
+.formdata{
+    background-color: #ffffff;
+    padding: 85px 50px;
+}
+
+.forminputset{
+    margin-bottom:15px;
+}
+
+.aligncenter{
+    height: 100%;
+    margin-top: 85px;
+}
+
+.formselectset{
+    margin-bottom: 25px;
+}
+
+.group1{
+    margin-bottom: 25px;
+}
+
+.user{
+    margin: 20px 390px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.625em;
+    color: #777;
+    font-style: italic;
+    max-width: 555px;
+}
+
+.setfour{
+    top: 110px;
+}
