@@ -164,6 +164,19 @@
     margin-bottom: 40px;
 }
 
+.marconavbar{
+    border-bottom: 1px solid #9B9B9B;
+}
+
+.marcooffcanvas{
+    background: rgba(0,0,0,0.8) !important;
+}
+
+.navbartext{
+    font-size: 11px;
+    font-weight: 500;
+}
+
 .menu{
     color: #fff;
     border-top-left-radius: 10px;
@@ -395,7 +408,7 @@
 .textinput{   
     color: #495057;
     border: none;
-    width: 295px;
+    /* width: 295px; */
     font-size: 14px;
 }
 
@@ -429,4 +442,73 @@
 
 .red{
     color: #f42f2c;
+}
+
+@media screen and (max-width:320px) and (min-width:150px) {
+    .backgroundimg2{
+        height: 1240px;
+    }
+
+    .nitro{
+        display: none;
+    }
+
+    .bgimg{
+        height: 1240px;
+    }
+
+    /* .marcooffcanvas{
+        z-index: 0;
+    } */
+
+    .menu,
+    .breakfast,
+    .lunch,
+    .dinner,
+    .meal,
+    .buffet{
+        width: 100%;
+        border: none;
+    }
+
+    .marcobody{
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:768px) and (min-width:321px) {
+    .backgroundimg2{
+        height: 1080px;
+    }
+
+    .bgimg{
+        height: 1080px;
+    }
+
+    .menu,
+    .breakfast,
+    .lunch,
+    .dinner,
+    .meal,
+    .buffet{
+        width: 100%;
+        border: none;
+    }
+
+/*     .marcobtn{
+        float: right;
+    }
+ */
+
+   /*  .marcooffcanvas{
+        z-index: 0;
+    } */
+
+    .marcobody{
+        margin-top: 60px;
+    }
+
+    .marcodistext{
+        display: block !important;
+    }
 }

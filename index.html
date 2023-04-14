@@ -50,51 +50,56 @@
                             <img src="assets/macro.png.webp" alt="Not found" class="p-4">
                         </div>
                         <div class="container marcoabsolute">
-                            <nav class="navbar navbar-light">
+                            <nav class="navbar marconavbar navbar-expand-md navbar-light">
                                 <div class="container-fluid">
-                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <div class="d-lg-none d-md-block d-sm-block marcodistext">
+                                        <a href="#" class="navlink navbartext text-left text-light mx-4 text-decoration-none">MENU</a>
+                                    </div>
+                                    <button class="navbar-toggler marcobtn btn-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbaroffcanvas">
                                         <span class="navbar-toggler-icon"></span>
                                     </button>
-                                    <div class="collapse navbar-collapse" id="navbarSupportedContent  d-flex">
-                                        <ul class="navbar-nav me-auto d-block mb-2 mb-lg-0">
-                                            <li class="nav-item">
-                                                <a href="#" class="navlink">HOME</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="#" class="navlink">ABOUT</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="#" class="navlink">MENU</a>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="#" class="navlink">GALLERY</a>
-                                            </li>
-                                            <li class="nav-item dropdown">
-                                                <a href="#" class="navlink dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">BLOG</a>
-                                                <ul class="dropdown-menu"> 
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Blog Home</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Blog Single</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item dropdown">
-                                                <a href="#" class="navlink dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">PAGES</a>
-                                                <ul class="dropdown-menu"> 
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Element</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Level 2</a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li class="nav-item">
-                                                <a href="#" class="navlink">CONTACT</a>
-                                            </li>
-                                        </ul>
+                                    <div class="offcanvas offcanvas-start marcooffcanvas w-50 text-left ps-5 text-light" id="navbaroffcanvas">
+                                        <div class="offcanvas-body marcobody">
+                                            <ul class="navbar-nav mx-auto d-block mb-2 mb-lg-0">
+                                                <li class="nav-item py-4">
+                                                    <a href="#" class="navlink navbartext text-light mx-4 text-decoration-none">HOME</a>
+                                                </li>
+                                                <li class="nav-item py-4">
+                                                    <a href="#" class="navlink navbartext text-light mx-4 text-decoration-none">ABOUT</a>
+                                                </li>
+                                                <li class="nav-item py-4">
+                                                    <a href="#" class="navlink navbartext text-light mx-4 text-decoration-none">MENU</a>
+                                                </li>
+                                                <li class="nav-item py-4">
+                                                    <a href="#" class="navlink navbartext text-light mx-4 text-decoration-none">GALLERY</a>
+                                                </li>
+                                                <li class="nav-item dropdown mx-4 py-4">
+                                                    <a href="#" class="navlink text-light navbartext text-decoration-none dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">BLOG</a>
+                                                    <ul class="dropdown-menu"> 
+                                                        <li>
+                                                            <a class="dropdown-item navbartext text-dark text-decoration-none" href="#">Blog Home</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item navbartext text-dark text-decoration-none" href="#">Blog Single</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item dropdown mx-4 py-4">
+                                                    <a href="#" class="navlink text-light navbartext text-decoration-none dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">PAGES</a>
+                                                    <ul class="dropdown-menu"> 
+                                                        <li>
+                                                            <a class="dropdown-item text-dark text-decoration-none" href="#">Element</a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="dropdown-item text-dark text-decoration-none" href="#">Level 2</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item py-4">
+                                                    <a href="#" class="navlink mx-4 navbartext text-light text-decoration-none">CONTACT</a>
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </nav>
@@ -302,15 +307,15 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4 col-md-6 mt-5">
+                        <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
                             <img src="assets/g1.jpg.webp" alt="Not found" class="group1 w-100">
                             <img src="assets/g5.jpg.webp" alt="Not found" class="group1 w-100">
                         </div>
-                        <div class="col-lg-4 col-md-6 mt-5">
+                        <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
                             <img src="assets/g2.jpg.webp" alt="Not found" class="group1 w-100">
                             <img src="assets/g4.jpg.webp" alt="Not found" class="group1 w-100">
                         </div>
-                        <div class="col-lg-4 col-md-6 mt-5">
+                        <div class="col-lg-4 col-md-6 col-sm-6 mt-5">
                             <img src="assets/g3.jpg.webp" alt="Not found" class="group1 w-100">
                             <img src="assets/g6.jpg.webp" alt="Not found" class="group1 w-100">
                         </div>
@@ -355,7 +360,7 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6 px-4">
+                        <div class="col-lg-3 col-md-6 col-sm-6 px-4">
                             <div class="part">
                                 <img src="assets/b1.jpg.webp" alt="Not found" class="imagesrc my-4 w-100">
                                 <div class="date my-4 text-center">
@@ -381,7 +386,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 px-4">
+                        <div class="col-lg-3 col-md-6 col-sm-6 px-4">
                             <div class="part">
                                 <img src="assets/b2.jpg.webp" alt="Not found" class="imagesrc my-4 w-100">
                                 <div class="date my-4 text-center">
@@ -407,7 +412,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 px-4">
+                        <div class="col-lg-3 col-md-6 col-sm-6 px-4">
                             <div class="part">
                                 <img src="assets/b3.jpg.webp" alt="Not found" class="imagesrc my-4 w-100">
                                 <div class="date my-4 text-center">
@@ -433,7 +438,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 px-4">
+                        <div class="col-lg-3 col-md-6 col-sm-6 px-4">
                             <div class="part">
                                 <img src="assets/b4.jpg.webp" alt="Not found" class="imagesrc my-4 w-100">
                                 <div class="date my-4 text-center">
@@ -465,36 +470,36 @@
             <div class="bottom">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg col-md-6">
+                        <div class="col-lg col-md-6 col-sm-6">
                             <div class="mx-3 mb-5">
                                 <h3 class="mb-5">Opening Hours</h3>
                                 <div class="row days">
-                                    <div class="col-md text-left">
+                                    <div class="col-md col-sm-4 text-left">
                                         <p class="week">Monday - friday</p>
                                     </div>
-                                    <div class="col-md text-right">
+                                    <div class="col-md col-sm-8 text-right">
                                         <p class="week">08:00 am - 10:00 pm</p>
                                     </div>
                                 </div>
                                 <div class="row days">
-                                    <div class="col-md text-left">
+                                    <div class="col-md col-sm-4 text-left">
                                         <p class="week">Saturday</p>
                                     </div>
-                                    <div class="col-md text-right">
+                                    <div class="col-md col-sm-8 text-right">
                                         <p class="week">08:00 am - 10:00 pm</p>
                                     </div>
                                 </div>
                                 <div class="row days">
-                                    <div class="col-md text-left">
+                                    <div class="col-md col-sm-4 text-left">
                                         <p class="week">Sunday</p>
                                     </div>
-                                    <div class="col-md text-right">
+                                    <div class="col-md col-sm-8 text-right">
                                         <p class="week">08:00 am - 10:00 pm</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg col-md-6">
+                        <div class="col-lg col-md-6 col-sm-6">
                             <div class="mx-3 mb-5">
                                 <h3 class="mb-5">Contact Us</h3>
                                 <p class="bottomp">
@@ -505,14 +510,14 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg col-md-6">
+                        <div class="col-lg col-md-6 col-sm-6">
                             <div class="mx-3 mb-5">
                                 <h3 class="mb-5">Newsletter</h3>
                                 <p class="bottomp">
                                     You can trust us. we only send promo offers, not a single spam.
                                 </p>
                                 <div class="bottominput ps-5 d-flex">
-                                    <input type="text" class="textinput" placeholder="Your Email address">
+                                    <input type="text" class="textinput w-100" placeholder="Your Email address">
                                     <div class="arrow pointer">
                                         <i class='fas fa-arrow-right' style="font-size: 15px;"></i>
                                     </div>
