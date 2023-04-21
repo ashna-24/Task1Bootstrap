@@ -50,7 +50,6 @@
 }
 
 .backgroundimg{
-    padding-top: 60px;
     height: 657px;
     object-fit: cover;
 }
@@ -61,7 +60,7 @@
 }
 
 .marcologo{
-    top: 70px;
+    top: 25px;
 }
 
 .ulnavbar{
